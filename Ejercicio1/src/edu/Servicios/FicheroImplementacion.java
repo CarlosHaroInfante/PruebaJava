@@ -16,7 +16,7 @@ public class FicheroImplementacion implements FicheroInterfaz{
 		
 		String FechaDeHoy = formato.format(hoy);
 		
-		String ficheroLog = "C:\\Users\\CHI\\eclipse-workspace\\Ejercicio1\\src\\edu\\Servicios\\" + FechaDeHoy + ".txt";
+		String ficheroLog = "C:\\Users\\Carlos\\Desktop\\CSI2\\DonRegino Java\\PruebaJava-main\\Ejercicio1\\" + FechaDeHoy + ".txt";
 		
 		FileWriter escribe = new FileWriter(ficheroLog, true);
 		escribe.write(mensaje + "\n");
